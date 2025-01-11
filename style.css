@@ -89,5 +89,82 @@ body{
 }
 /* Banner Section End  */
 
+/* pillars section  start*/
 
+.pillars-section{
+    margin-top: 60px;  
+}
+.pillars-section .pillars-title{
+    font-weight: bold;
+    font-size: 36px;
+}
+.pillars-section .pillars-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    
+    
+}
+.pillars-card1{
+    width: 302px;
+    height: 220px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.pillars-card1 h3{
+    color: rgba(14, 14, 14, 0.8);
+}
+.pillars-card1 p{
+ color:rgba(14, 14, 14, 0.7) ;
+ font-size: 16px;
+}
+.pillars-card2{
+    width: 302px;
+    height: 220px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.pillars-card2 h3{
+    color: rgba(14, 14, 14, 0.8);
+}
+.pillars-card2 p{
+ color:rgba(14, 14, 14, 0.7) ;
+ font-size: 16px;
+}
+.pillars-card3{
+    width: 302px;
+    height: 220px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.pillars-card3 h3{
+    color: rgba(14, 14, 14, 0.8);
+}
+.pillars-card3 p{
+ color:rgba(14, 14, 14, 0.7) ;
+ font-size: 16px;
+}
+.pillars-card4{
+    width: 302px;
+    height: 220px;
+    background-color: #FFFFFF;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 16px;
+}
+.pillars-card4 h3{
+    color: rgba(14, 14, 14, 0.8);
+}
+.pillars-card4 p{
+ color:rgba(14, 14, 14, 0.7) ;
+ font-size: 16px;
+}
 
+/* pillars section  end*/
