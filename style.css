@@ -21,12 +21,15 @@
 /* font-family end */
 body{
     background-color: #F5F5F5;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* navbat start */
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     
 }
@@ -37,8 +40,54 @@ body{
     border: 1px solid #006A50; 
     padding: 13px 30px;
     border-radius: 8px;
-    color: #006A50;   
+
+}
+.btn-sing a{
+    text-decoration: none;
+    color: #006A50; 
 }
 
 /* navbar end */
+
+/* Banner Section start */
+
+.banner-Section{
+    background-color: #C6E4D6;
+    height: 560px;
+    width: 1280px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    
+    
+}
+.banner-right .banner-subtitle{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+
+}
+.banner-right .banner-title{
+    font-size: 50px;
+}
+.banner-right .banner-btn {
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    padding: 17px 34px ;
+    background-color: #006A50;
+    
+    font-size: 18px;
+}
+.banner-btn a{
+    text-decoration: none;
+    color: #F5F5F5;
+}
+/* Banner Section End  */
+
+
 
