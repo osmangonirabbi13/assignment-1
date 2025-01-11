@@ -281,3 +281,33 @@ body{
     font-weight: bold;
     font-size: 16px;
 }
+/* chief-adviser massage start */
+
+.chief-adviser{
+    background-color: #FFFFFF;
+    margin-top: 40px;
+    border-radius: 16px;
+    border: 1px solid #FFFFFF;
+    padding: 16px 24px;
+}
+.chief-adviser div{
+    background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 14px;
+    
+}
+.chief-adviser div .chief-adviser-massage{
+    color: rgba(14, 14, 14, 0.8);
+}
+.chief-adviser div .chief-adviser-name{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    
+}
+.chief-adviser div .chief-adviser-title{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+}
+
+/* chief-adviser massage end */
+
