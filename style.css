@@ -311,7 +311,7 @@ body{
 
 /* chief-adviser massage end */
 
-/* recent news start */
+/* recent news section start */
 
 .recent-section{
     margin-top: 60px;
@@ -346,7 +346,7 @@ body{
 }
 .recent-cards .recent-news p {
     color: rgba(14, 14, 14, 0.7);
-    font-size: 16px;
+    font-size: 18px;
 }
 .recent-cards .recent-news p span{
     color: rgba(14, 14, 14, 0.7);
@@ -365,5 +365,87 @@ body{
     font-size: 18px;
 
 }
+/* recent news section end */
+
+/* donate section start */
+.donate-section{
+    margin-top: 60px;
+}
+.donate-section h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.donate-section p{
+    text-align: center;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+}
+.donate-taka{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 32px ;
+    
+}
+.donate-taka .taka1 {
+    background-color: #FFFFFF;
+    width: 240px;
+    height: 116px;
+    color: rgba(14, 14, 14, 0.8);
+    border: 1px solid #FFFFFF;
+    border-radius: 16px;
+
+}
+.donate-taka .taka2 {
+    background-color: rgba(198, 228, 214, 1);
+    width: 240px;
+    height: 116px;
+    color: rgba(14, 14, 14, 0.8);
+    border: 1px solid #FFFFFF;
+    border-radius: 16px;
 
 
+}
+.donate-taka .taka3 {
+    background-color: #FFFFFF;
+    width: 240px;
+    height: 116px;
+    color: rgba(14, 14, 14, 0.8);
+    border: 1px solid #FFFFFF;
+    border-radius: 16px;
+
+}
+.donate-taka .taka4 {
+    background-color: #FFFFFF;
+    width: 240px;
+    height: 116px;
+    color: rgba(14, 14, 14, 0.8);
+    border: 1px solid #FFFFFF;
+    border-radius: 16px;
+}
+.input-fild input{
+    width: 900px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 32px auto;
+}
+.btn-donate{
+    display: flex;
+
+    background-color: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    padding: 17px 34px;
+    margin: 32px auto;
+}
+.btn-donate a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
