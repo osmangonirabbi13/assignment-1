@@ -47,6 +47,14 @@ body{
     color: #006A50; 
 }
 
+.btn-sing:hover{
+    background-color: #e02323;
+    border: 1px solid #e02323;
+}
+.btn-sing a:hover{
+    color: #FFFFFF;
+}
+
 /* navbar end */
 
 /* Banner Section start */
@@ -86,6 +94,10 @@ body{
 .banner-btn a{
     text-decoration: none;
     color: #F5F5F5;
+}
+.banner-right .banner-btn:hover{
+    border: 1px solid lightsalmon;
+    background-color: lightsalmon;
 }
 /* Banner Section End  */
 
@@ -219,6 +231,14 @@ body{
     font-weight: bold;
     font-size: 16px;
 }
+/* hover section 1 */
+.future-vision-cards .future-vision-card1 .btn-future1:hover{
+    background-color: coral;
+    border: 1px solid coral;
+}
+.future-vision-cards .future-vision-card1:hover{
+    background-color: rgb(65, 236, 117);
+}
 .future-vision-cards .future-vision-card2{
     width: 400px;
     height: 280px;
@@ -250,6 +270,14 @@ body{
     font-weight: bold;
     font-size: 16px;
 }
+/* hover section 2 */
+.future-vision-cards .future-vision-card2 .btn-future2:hover{
+    background-color: lightslategray;
+    border: 1px solid lightslategray;
+}
+.future-vision-cards .future-vision-card2:hover{
+    background-color: rgb(255, 224, 122);
+}
 .future-vision-cards .future-vision-card3{
     width: 400px;
     height: 280px;
@@ -280,6 +308,14 @@ body{
     color: #FFFFFF;
     font-weight: bold;
     font-size: 16px;
+}
+/* hover section 2 */
+.future-vision-cards .future-vision-card3 .btn-future3:hover{
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+}
+.future-vision-cards .future-vision-card3:hover{
+    background-color: lightsalmon;
 }
 /* chief-adviser massage start */
 
@@ -365,6 +401,10 @@ body{
     font-size: 18px;
 
 }
+.recent-cards .recent-news .recent-btn:hover{
+    background-color: lightcoral;
+    border: 1px solid lightcoral;
+}
 /* recent news section end */
 
 /* donate section start */
@@ -395,7 +435,9 @@ body{
     color: rgba(14, 14, 14, 0.8);
     border: 1px solid #FFFFFF;
     border-radius: 16px;
-
+}
+.donate-taka .taka1:hover{
+    background-color: #5490F5;
 }
 .donate-taka .taka2 {
     background-color: rgba(198, 228, 214, 1);
@@ -404,8 +446,9 @@ body{
     color: rgba(14, 14, 14, 0.8);
     border: 1px solid #FFFFFF;
     border-radius: 16px;
-
-
+}
+.donate-taka .taka2:hover{
+    background-color: #7754f5;
 }
 .donate-taka .taka3 {
     background-color: #FFFFFF;
@@ -414,7 +457,9 @@ body{
     color: rgba(14, 14, 14, 0.8);
     border: 1px solid #FFFFFF;
     border-radius: 16px;
-
+}
+.donate-taka .taka3:hover{
+    background-color: #f054f5;
 }
 .donate-taka .taka4 {
     background-color: #FFFFFF;
@@ -423,6 +468,9 @@ body{
     color: rgba(14, 14, 14, 0.8);
     border: 1px solid #FFFFFF;
     border-radius: 16px;
+}
+.donate-taka .taka4:hover{
+    background-color: #f55454;
 }
 .input-fild input{
     width: 900px;
@@ -433,6 +481,9 @@ body{
     text-align: center;
     margin: 32px auto;
     border: 1px solid #FFFFFF;
+}
+.input-fild input:hover{
+    border: 1px solid red;
 }
 .input-fild input[placeholder]{
     font-size: 20px;
@@ -451,6 +502,10 @@ body{
     font-size: 18px;
     font-weight: bold;
     
+}
+.btn-donate:hover{
+    background-color: brown;
+    border: 1px solid brown;
 }
 /* donate section end */
 
@@ -477,12 +532,23 @@ body{
     border-radius: 8px 0 0 8px;
     border: 1px solid #FFFFFF;
 }
+.input-type input:hover{
+    border: 1px solid limegreen;
+}
+.input-type input[placeholder]{
+    font-size: 16px;
+    padding-left: 32px;
+}
 .input-type button{
     background-color: #006A50;
     border: 1px solid #006A50;
     border-radius: 0 8px 8px 0;
     padding: 14px 34px;
     margin: 16px auto;
+}
+.input-type button:hover{
+    background-color: lightcoral;
+    border: 1px solid lightcoral;
 }
 .input-type button a{
     text-decoration: none;
@@ -492,7 +558,32 @@ body{
 }
 .subscribe-news-section .promise-text {
     color: rgba(14, 14, 14, 0.7);
+    padding-bottom: 10px;
 }
 
 /* subscribe-newslatter-section End */
 
+/* footer-section start */
+
+.footer-section{
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-top: 62px;
+    padding-top: 40px;
+
+}
+.footer-section .b{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    width: 900px;
+    margin: 5px auto ;
+}
+.footer-section .footer-img{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* footer-section end */
